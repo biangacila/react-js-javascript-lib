@@ -111,6 +111,7 @@ export default ()=>{
                         },
                         {
                             k:<FontAwesomeIcon icon={"check"} />,
+                            styleKey:{fontSize:18,fontWeight:"bold",color:"green"},
                         }
 
                     ]}/>

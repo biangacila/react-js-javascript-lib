@@ -58,6 +58,12 @@ export default ({Data}) => {
     return (
         <div style={styles.container}>
             <Row>
+                <Col span={24} style={styles.currentMonth}
+                >
+                    Current Month
+                </Col>
+            </Row>
+            <Row>
                 {Data.map((item, index) => {
                     return (
                         <RenderBox key={index} item={item} index={index}/>
@@ -69,6 +75,13 @@ export default ({Data}) => {
 };
 
 const styles = {
+    currentMonth:{
+        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        display: "flex",
+        minHeight: 45
+    },
     withIco:{
         alignItems: 'center',
         flexDirection: 'row',
