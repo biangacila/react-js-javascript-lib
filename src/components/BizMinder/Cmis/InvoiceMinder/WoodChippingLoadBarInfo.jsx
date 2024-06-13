@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import {Colors} from "../../../constants/color.js";
+import {Colors} from "../../../../constants/color.js";
 
 export default ({Data})=> {
     const parentRef = useRef(null);

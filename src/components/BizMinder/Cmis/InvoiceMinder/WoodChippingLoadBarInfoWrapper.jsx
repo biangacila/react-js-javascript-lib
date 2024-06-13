@@ -3,10 +3,10 @@ import React, { useRef, useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {Colors} from "../../../constants/color.js";
+import {Colors} from "../../../../constants/color.js";
 import {Row,Col} from "antd"
 import WoodChippingCardHeader from "./WoodChippingCardHeader.jsx";
-import WoodChippingCardContent from "./WoodChippingCardContent.jsx";
+import WoodChippingCardContent from "./WoodChippingCardContent.js";
 
 // Add the icon to the library
 library.add(faCheck);

@@ -1,4 +1,4 @@
-import react from 'react';
+
 import {Row,Col} from "antd"
 export default ({title , month})=>{
     return(

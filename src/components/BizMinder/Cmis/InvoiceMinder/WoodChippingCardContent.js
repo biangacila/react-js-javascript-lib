@@ -1,5 +1,5 @@
 import {Row, Col} from "antd";
-import {Colors} from "../../../constants/color.js";
+import {Colors} from "../../../../constants/color.js";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCoffee, faList, faAngleDown, faCartArrowDown, faCaretDown, faCaretUp} from '@fortawesome/free-solid-svg-icons'
 
